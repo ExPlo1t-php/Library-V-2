@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="Assets/Icons/fontawesome-free-6.0.0-beta2-web/css/all.css">
+     <title>library V2</title>
+
+</head>
+<body>
+     <div id="container">
+          <h3>Add A New Book</h3>
+          <div id="inputs">
+
+              <form class="options">
+                  <label id="title_input">
+              <input id="title" type="text" placeholder="Enter the Title">
+                  </label>
+
+                  <label id="author_input">
+              <input id="author" type="text" placeholder="Enter the Author">
+                  </label>
+
+                  <label id="price_input">
+              <input id="price" type="text" placeholder="Enter the Price (In MAD)">
+                  </label>
+              </form>
+
+
+
+              <form class="options">
+                  <label id="date_input">
+                  <input type="date" id="date"> 
+                  </label>
+                  
+                  <label id="lang_input">
+                  <select name="Language" id="lang">
+                      <option value="" disabled selected>- select language -</option>
+                      <option value="English">English</option>
+                      <option value="Arabic">Arabic</option>
+                      <option value="French">French</option>
+                      <option value="Spanish">Spanish</option>
+                    </select>
+                  </label>
+
+                  <label >
+                       <input type="text" placeholder="author's email" id="email">
+                  </label>
+
+                  <section id="type">
+                      <label><input type="radio"  value="Novel" name="select" class="types">Novel</label>
+                      <label><input type="radio"  value="Essay" name="select" class="types">Essay</label>
+                      <label><input type="radio"  value="Comics" name="select" class="types">Comics</label>
+                  </section>
+              </form>
+
+      </div>
+
+      <button id="submit" onclick="checker()">Add To List</button>
+      <!-- <button id="print" onclick="window.print();return false;"></button> -->
+      </div>
+
+
+      <div class="list">
+        <table id="table">
+            <tr>
+              <th class="title" >Title</th>
+              <th class="author">Author</th>
+              <th class="price">Price</th>
+              <th class="date">Date Of Publishing</th>
+              <th class="lang">Language</th>
+              <th class="email">Email</th>
+              <th class="type">Type</th>
+              <th>settings</th>
+            </tr>
+  
+            </table>
+
+    </div>
+
+
+     <script src="script.js"></script>
+</body>
+</html>

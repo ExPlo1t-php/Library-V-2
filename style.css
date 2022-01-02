@@ -1,0 +1,178 @@
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     
+     @font-face {
+          font-family: "lib";
+          src: url(Assets/Fonts/Uni\ Sans\ Thin\ Italic.otf);
+     }
+     
+     
+     #container{
+          border-radius: 10px;
+                    display: block;
+          margin: auto;
+          padding: 100px;
+          text-align: center;
+          align-items: center;
+          padding: 60px;
+          background: url();
+          color: #000; 
+          width: fit-content;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     
+
+     
+     #inputs p{
+          font-weight: bold;    
+     }
+     
+     h3{
+          text-align: center;
+          height: fit-content;
+          font-family: "lib", sans-serif;
+          font-size: 40px;
+          color: rgb(255, 255, 255);
+          text-shadow: 5px 5px 5px rgba(0,0,0,0.44);
+     }
+     
+     
+     #input::after{
+          content: icon"fa-light fa-calendar-days";
+     }
+     
+     .options input, .options select{
+          display: block;
+          margin: auto;
+          margin-top: 40px;
+          height: 40px;
+          width: 400px;
+          border: 1px solid;
+          border-radius: 9px;
+          padding: 8px;
+          font-size: 15px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     
+     .options input:focus, .options select:focus{
+          outline: none;
+          box-shadow: 0 0 10px rgba(0,0,0,0.44);
+     }
+     
+     .options{
+          text-align: center;
+     }
+     
+     #submit{
+          padding-right: 20px;
+          padding-right: 20px;
+          margin: auto;
+          border-radius: 7px;
+          padding: 15px;
+          border: none;
+          color: #fff;
+          background-color: #000;
+     }
+     
+     #submit:hover{
+          background-color: rgb(128, 128, 128);
+          opacity: 50%;
+     
+     }
+     
+     .types:focus{
+          color: #000;
+
+     }
+     
+     
+     #type{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+     }
+     
+     #type label input{
+          width: fit-content;
+          height: fit-content;
+          -webkit-transform: scale(1.5);
+          color: red;
+          margin: auto;
+          margin-right: 10px;
+     }
+
+     #type label{
+          width: fit-content;
+          height: fit-content;
+          margin: 5px;
+          display: flex;
+          margin-right: 10px;
+     
+     }
+
+     i{
+          margin: 5px;
+     }
+
+     table{
+          margin: auto;
+     }
+
+     .list{
+          border: solid #000 1px;
+          background-color: #EEEEEE;
+          text-align: center;
+          margin: auto;
+          border-radius: 10px;
+          width: 90%;
+          height: 500px;
+          padding: 20px;
+          padding-top: 10px;
+          margin-top: 100px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      
+      
+      table{
+          width: 100%;
+      }
+      
+      td.title, td.author{
+          width: 25%;
+      }
+      
+      table th{
+          border-collapse: collapse;
+          padding: 15px;
+          margin: auto;
+          font-weight: 500;
+          color: #fff;
+          background-color: #000;
+      }
+      
+      table tr{
+          background-color: white;
+      }
+      
+      tr:nth-child(even){
+          background-color: #EEEEEE;
+      }
+      
+      
+      .fa-trash-can{
+          color:red;
+      }
+      
+      .fa-check{
+          color: #4BB543;
+      }
+      
+
+
+     
+
+     
