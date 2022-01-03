@@ -136,12 +136,12 @@ let checker = () => {
                books.sort((a, b)=> {a.title > b.title})
                let keys = Object.keys(books[0]);  
                for (let book of books){   
-                    tr = document.createElement('tr');  // create a tr for each key
+                    tr = document.createElement('tr');  
                     for (let key of keys){
                          createTd(book[key]);
                     }
                     addIcons();
-                    table.appendChild(tr);              // append everything to table 
+                    table.appendChild(tr);              
                }
                
                
